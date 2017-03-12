@@ -1,7 +1,4 @@
-Cosmic Solgaleo Commands
-====================
-
-Bot commands are in files of this path. If you want to add more commands just add more files with the specifications mentioned in main README. Commands included in this repository are explained below.
+This is the current command list for Cosmic Solgaleo for the 1v1 room in the Azure Server. 
 
 1v1 Commands
 ------------
