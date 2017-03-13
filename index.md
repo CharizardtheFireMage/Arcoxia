@@ -8,8 +8,12 @@ These are some custom commands used to create a tournament in the 1v1 room of th
 - `monocolor` - The bot creates an 1v1 tournament and declares what pokemon of a specific color to use.
 - `monopoke [name]` - The bot creates an 1v1 tournament and declares what pokemon should you use.
 - `monothreat` - The bot creates an 1v1 tournament and declares what pokemon of a specific type to use. 
+- `declareletter [letter]` - The bot declares what pokemon of a specific letter that you have to use in the Monoletter 1v1 Tournament. 
+- `declarecolor [color]` - The bot declares what pokemon of a specific color that you have to use in the Monocolor 1v1 Tournament. 
+- `declarepoke [pokemon]` - The bot declares what pokemon that you have to use in the Monopoke 1v1 Tournament. 
+- `declarethreat [type]` - The bot declares what pokemon of a specific type that you have to use in the Monothreat 1v1 Tournament. 
 
-For the monoletter, monocolor, and monothreat commands, PLEASE do not spam this command, because that the bot will switch letter, color, and typing every time the command is used. So just bold over using these commands to notify users about what type of Mono 1v1 tournament it is. 
+For the monoletter, monocolor, and monothreat commands, PLEASE do not spam this command, because that the bot will switch letter, color, and typing every time the command is used. 
 
 Basic Commands
 ------------
