@@ -1,9 +1,10 @@
-This is the current command list for Cosmic Solgaleo for the 1v1 room in the Azure Server. 
+This is the current command list for Arcoxia for the 1v1 room in the Azure Server. 
 
 1v1 Commands
 ------------
 These are some custom commands used to create a tournament in the 1v1 room of the Azure Server. 
-- `1v1 [none|doubles|2v2]` - The bot creates a 1v1 tournament (Single or Double Elimination), or a 2v2 Doubles tournament. 
+
+- `1v1 [none|doubles]` - The bot creates a 1v1 tournament (Single or Double Elimination). 
 - `monoletter` - The bot creates an 1v1 tournament and declares what pokemon of a specific letter to use. 
 - `monocolor` - The bot creates an 1v1 tournament and declares what pokemon of a specific color to use.
 - `monopoke [name]` - The bot creates an 1v1 tournament and declares what pokemon should you use.
@@ -14,6 +15,12 @@ These are some custom commands used to create a tournament in the 1v1 room of th
 - `declarethreat [type]` - The bot declares what pokemon of a specific type that you have to use in the Monothreat 1v1 Tournament. 
 
 For the monoletter, monocolor, and monothreat commands, PLEASE do not spam this command, because that the bot will switch letter, color, and typing every time the command is used. 
+
+Monotype Commands
+-----------------
+This is a command that is used for the Monotype room in the Azure Server.
+
+- `monotour [uu|lc|duotype|1v1|aaa|stabmons|bw|ubers|monothreat]` - The bot declares what type of tournament is being played right now, as to notify users what teams to use.
 
 Basic Commands
 ------------
