@@ -12,9 +12,14 @@ These are some custom commands used to create a tournament in the 1v1 room of th
 - `declareletter [letter]` - The bot declares what pokemon of a specific letter that you have to use in the Monoletter 1v1 Tournament. 
 - `declarecolor [color]` - The bot declares what pokemon of a specific color that you have to use in the Monocolor 1v1 Tournament. 
 - `declarepoke [pokemon]` - The bot declares what pokemon that you have to use in the Monopoke 1v1 Tournament. 
-- `declarethreat [type]` - The bot declares what pokemon of a specific type that you have to use in the Monothreat 1v1 Tournament. 
+- `declarethreat [type]` - The bot declares what pokemon of a specific type that you have to use in the Monothreat 1v1 Tournament.
+- `ovoei [ce1v1|mono1v1rr]` - The bot PMs you with the rules or any information about an 1v1 event. 
 
 For the monoletter, monocolor, and monothreat commands, PLEASE do not spam this command, because that the bot will switch letter, color, and typing every time the command is used. 
+
+# 1v1 Staff Commands
+- `ce1v1` - The bot creates a 1v1 tournament, addhtmlboxes the rules and a button at which users can press to PM the host for a pokemon. For every 5 minutes for 20 minutes, the bot will auto-addhtmlbox the button to PM the host, so don't start the tournament until after the bot has auto-addhtmlbox'ed four times. Whitelisted users have access to this command. 
+- `mono1v1rr` - The bot creates a [Gen 7] Monotype 1v1 Tournament and declares the rules of the event. & and up have access to this command. 
 
 Monotype Commands
 -----------------
