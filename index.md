@@ -25,7 +25,7 @@ Monotype Commands
 -----------------
 This is a command that is used for the Monotype room in the Azure Server.
 
-- `monotour [uu|lc|duotype|1v1|aaa|stabmons|bw|ubers|monothreat]` - The bot declares what type of tournament is being played right now, as to notify users what teams to use.
+- `monotour [uu|lc|duotype|1v1|aaa|stabmons|bw|ubers|monothreat|catchandevolve]` - The bot creates a tournament and declares what type of tournament is being played right now, as to notify users what teams to use.
 
 Basic Commands
 ------------
