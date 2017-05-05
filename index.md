@@ -17,7 +17,8 @@ These are some custom commands used to create a tournament in the 1v1 room of th
 
 For the monoletter, monocolor, and monothreat commands, PLEASE do not spam this command, because that the bot will switch letter, color, and typing every time the command is used. 
 
-# 1v1 Staff Commands
+1v1 Staff Commands
+------------------
 - `ce1v1` - The bot creates a 1v1 tournament, addhtmlboxes the rules and a button at which users can press to PM the host for a pokemon. For every 5 minutes for 20 minutes, the bot will auto-addhtmlbox the button to PM the host, so don't start the tournament until after the bot has auto-addhtmlbox'ed four times. Whitelisted users have access to this command. 
 - `mono1v1rr` - The bot creates a [Gen 7] Monotype 1v1 Tournament and declares the rules of the event. & and up have access to this command. 
 
@@ -27,7 +28,8 @@ This is a command that is used for the Monotype room in the Azure Server.
 
 - `monotour [uu|lc|duotype|1v1|aaa|stabmons|bw|ubers|monothreat|catchandevolve]` - The bot creates a tournament and declares what type of tournament is being played right now, as to notify users what teams to use.
 
-# Art Profile Commands
+Art Profile Commands
+--------------------
 These commands are applied to setting up an Art Profile or a CSS Profile in the Design Shop.
 • `addbasic [link]`- Adds a basic avatar that you have made into your artprofile.
 • `removebasic [link]`- Removes a basic avatar that you have made from your artprofile.
