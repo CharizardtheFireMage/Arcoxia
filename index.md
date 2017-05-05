@@ -27,6 +27,25 @@ This is a command that is used for the Monotype room in the Azure Server.
 
 - `monotour [uu|lc|duotype|1v1|aaa|stabmons|bw|ubers|monothreat|catchandevolve]` - The bot creates a tournament and declares what type of tournament is being played right now, as to notify users what teams to use.
 
+# Art Profile Commands
+These commands are applied to setting up an Art Profile or a CSS Profile in the Design Shop.
+• `addbasic [link]`- Adds a basic avatar that you have made into your artprofile.
+• `removebasic [link]`- Removes a basic avatar that you have made from your artprofile.
+• `addrecolor [link]`- Adds a recolored avatar that you have made into your artprofile.
+• `removerecolor [link]`- Removes a recolored avatar that you have made from your artprofile.
+• `addanimated [link]`- Adds an animated avatar that you have made into your artprofile.
+• `removeanimated [link]`- Removes an animated avatar that you have made from your artprofile.
+• `addcustom [link]`- Adds a custom-scratch avatar that you have made into your artprofile.
+• `removecustom [link]`- Removes a custom-scratch avatar that you have made from your artprofile.
+• `addcss [link], [width], [height]`- Adds a CSS Design that you have made into your cssprofile.
+• `artprofile [user]`- Display the art profile of a user, or use artprofile to display your own artprofile.
+• `deleteprofile [user]`- Delete the entire artprofile of a specific user (only accessable by the owners of the room).
+• `cssprofile [user]`- Display the CSS profile of a user, or use cssprofile to display your own cssprofile.
+• `deletecssprofile [user]`- Delete the entire cssprofile of a specific user (only accessable by the owners of the room).
+• `showimg [link], [width], [height]`- Broadcasts an image with a set width and height.
+• `showavatar [#]`- Broadcasts a default trainer avatar of choice.
+• `imgsearch [pokemon]`- Searches for sprites of a chosen pokemon, if any are available. (Does not cover all artwork)
+
 Basic Commands
 ------------
 
