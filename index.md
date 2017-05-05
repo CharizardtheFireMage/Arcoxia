@@ -31,6 +31,7 @@ This is a command that is used for the Monotype room in the Azure Server.
 Art Profile Commands
 --------------------
 These commands are applied to setting up an Art Profile or a CSS Profile in the Design Shop.
+- For any help with these commands, please talk to a Room Moderator and up in the Design Shop. 
 - `addbasic [link]`- Adds a basic avatar that you have made into your artprofile.
 - `removebasic [link]`- Removes a basic avatar that you have made from your artprofile.
 - `addrecolor [link]`- Adds a recolored avatar that you have made into your artprofile.
