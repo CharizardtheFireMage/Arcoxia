@@ -49,6 +49,15 @@ These commands are applied to setting up an Art Profile or a CSS Profile in the 
 - `showavatar [#]`- Broadcasts a default trainer avatar of choice.
 - `imgsearch [pokemon]`- Searches for sprites of a chosen pokemon, if any are available. (Does not cover all artwork)
 
+The Empire Commands
+-------------------
+Theommands are used to evaluate and control the leaderboard in The Empire. You need t be a Room Moderator and above to have access to  the administrative commands.
+- `givepoints [user], [points]`- Gives an Alliance Academy student a designated amount of points for winning a tournament, LvL match, etc. @ and up have access to this command.
+- `takepoints [user], [points]`- Takes points from an Alliance Academy student if they had lost their LvL match. @ and up have access to this command.
+- `resetpoints [user]`- Resets points from an Alliance Academy user who had been purged from Alliance. @ and up have access to this command. @ and up have access to this command.
+- `lb` - Displays the A1 Leaderboard in the chat. + and up have access to this command.
+- `points [user|none]`- Displays how many points that an Alliance Academy member owns. 
+
 Basic Commands
 ------------
 
