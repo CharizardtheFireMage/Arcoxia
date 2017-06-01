@@ -30,8 +30,8 @@ This is a command that is used for the Monotype room in the Azure Server.
 
 Art Profile Commands
 --------------------
-These commands are applied to setting up an Art Profile or a CSS Profile in the Design Shop.
-- For any help with these commands, please talk to a Room Moderator and up in the Design Shop. 
+These commands are applied to setting up an Art Profile or a CSS Profile in the Design Shop. For any help with these commands, please talk to a Room Moderator and up in the Design Shop. 
+
 - `addbasic [link]`- Adds a basic avatar that you have made into your artprofile.
 - `removebasic [link]`- Removes a basic avatar that you have made from your artprofile.
 - `addrecolor [link]`- Adds a recolored avatar that you have made into your artprofile.
@@ -51,12 +51,23 @@ These commands are applied to setting up an Art Profile or a CSS Profile in the 
 
 The Empire Commands
 -------------------
-Theommands are used to evaluate and control the leaderboard in The Empire. You need t be a Room Moderator and above to have access to  the administrative commands.
+The commands are used to evaluate and control the leaderboard in The Empire. You need t be a Room Moderator and above to have access to  the administrative commands.
+
 - `givepoints [user], [points]`- Gives an Alliance Academy student a designated amount of points for winning a tournament, LvL match, etc. @ and up have access to this command.
 - `takepoints [user], [points]`- Takes points from an Alliance Academy student if they had lost their LvL match. @ and up have access to this command.
 - `resetpoints [user]`- Resets points from an Alliance Academy user who had been purged from Alliance. @ and up have access to this command. @ and up have access to this command.
 - `lb` - Displays the A1 Leaderboard in the chat. + and up have access to this command.
 - `points [user|none]`- Displays how many points that an Alliance Academy member owns. 
+
+ILA Commands
+-------------------
+The commands are used to evaluate and control the leaderboard in the ILA clan. You need t be a Room Moderator and above to have access to the administrative commands.
+
+- `givepts [user], [points]`- Gives an Alliance Academy student a designated amount of points for winning a tournament, LvL match, etc. @ and up have access to this command.
+- `takepts [user], [points]`- Takes points from an Alliance Academy student if they had lost their LvL match. @ and up have access to this command.
+- `resetpts [user]`- Resets points from an Alliance Academy user who had been purged from Alliance. @ and up have access to this command. @ and up have access to this command.
+- `ilalb` - Displays the A1 Leaderboard in the chat. + and up have access to this command.
+- `pts [user|none]`- Displays how many points that an Alliance Academy member owns. 
 
 Basic Commands
 ------------
