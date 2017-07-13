@@ -32,14 +32,8 @@ Art Profile Commands
 --------------------
 These commands are applied to setting up an Art Profile or a CSS Profile in the Design Shop. For any help with these commands, please talk to a Room Moderator and up in the Design Shop. 
 
-- `addbasic [link]`- Adds a basic avatar that you have made into your artprofile.
-- `removebasic [link]`- Removes a basic avatar that you have made from your artprofile.
-- `addrecolor [link]`- Adds a recolored avatar that you have made into your artprofile.
-- `removerecolor [link]`- Removes a recolored avatar that you have made from your artprofile.
-- `addanimated [link]`- Adds an animated avatar that you have made into your artprofile.
-- `removeanimated [link]`- Removes an animated avatar that you have made from your artprofile.
-- `addcustom [link]`- Adds a custom-scratch avatar that you have made into your artprofile.
-- `removecustom [link]`- Removes a custom-scratch avatar that you have made from your artprofile.
+- `addsprite [basic|recolor|animated|custom], [link]`- Adds the desired avatar, that you have made, into your artprofile.
+- `removesprite [basic|recolor|animated|custom], [link]`- Removes the desired avatar, that you have made, from your artprofile.
 - `addcss [link], [width], [height]`- Adds a CSS Design that you have made into your cssprofile.
 - `artprofile [user]`- Display the art profile of a user, or use artprofile to display your own artprofile.
 - `deleteprofile [user]`- Delete the entire artprofile of a specific user (only accessable by the owners of the room).
