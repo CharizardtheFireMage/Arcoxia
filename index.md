@@ -1,4 +1,4 @@
-This is the current command list for Arcoxia for the 1v1 room in the Azure Server. 
+This is the current command list for Arcoxia in the Azure Server. 
 
 1v1 Commands
 ------------
@@ -49,25 +49,24 @@ These commands are applied to setting up an Art Profile or a CSS Profile in the 
 - `showavatar [#]`- Broadcasts a default trainer avatar of choice.
 - `imgsearch [pokemon]`- Searches for sprites of a chosen pokemon, if any are available. (Does not cover all artwork)
 
-The Empire Commands
+iLa Commands
 -------------------
-The commands are used to evaluate and control the leaderboard in The Empire. You need t be a Room Moderator and above to have access to  the administrative commands.
+The commands are used to evaluate and control the leaderboard in iLa. You need t be a Room Moderator and above to have access to the administrative commands.
 
-- `givepoints [user], [points]`- Gives an Alliance Academy student a designated amount of points for winning a tournament, LvL match, etc. @ and up have access to this command.
-- `takepoints [user], [points]`- Takes points from an Alliance Academy student if they had lost their LvL match. @ and up have access to this command.
-- `resetpoints [user]`- Resets points from an Alliance Academy user who had been purged from Alliance. @ and up have access to this command. @ and up have access to this command.
-- `lb` - Displays the A1 Leaderboard in the chat. + and up have access to this command.
-- `points [user|none]`- Displays how many points that an Alliance Academy member owns. 
+- `givepoints [user], [points]`- Gives points to an iLa member. @ and up have access to this command.
+- `takepoints [user], [points]`- Takes points from an iLa member. @ and up have access to this command.
+- `resetpoints [user]`- Resets points from an iLa member. # have access to this command.
+- `ilalb` - Displays the iLa Leaderboard in the chat. + and up have access to this command.
+- `points [user|none]`- Displays how many points that an iLa member owns. + and up have access to this command.
 
-ILA Commands
--------------------
-The commands are used to evaluate and control the leaderboard in the ILA clan. You need t be a Room Moderator and above to have access to the administrative commands.
+Wi-Fi Gift Shop Commands
+------------------------
+The commands are used for hosting giveaways in the Wifi Gift Shop, and is only restricted to this room. Moderator and up only have access to these commands. 
 
-- `givepts [user], [points]`- Gives an Alliance Academy student a designated amount of points for winning a tournament, LvL match, etc. @ and up have access to this command.
-- `takepts [user], [points]`- Takes points from an Alliance Academy student if they had lost their LvL match. @ and up have access to this command.
-- `resetpts [user]`- Resets points from an Alliance Academy user who had been purged from Alliance. @ and up have access to this command. @ and up have access to this command.
-- `ilalb` - Displays the A1 Leaderboard in the chat. + and up have access to this command.
-- `pts [user|none]`- Displays how many points that an Alliance Academy member owns. 
+-`giveaway add, [user]` - Adds an user to a giveaway.
+-`giveaway remove, [user]` - Removes an user from the giveaway.
+-`giveaway prize, [prize]` - Sets the prize of the giveaway.
+-`giveaway draw` - Begins the giveaways. (Takes two minutes until a lucky winner is decided.
 
 Basic Commands
 ------------
