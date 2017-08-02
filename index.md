@@ -40,7 +40,7 @@ These commands are applied to setting up an Art Profile or a CSS Profile in the 
 - `cssprofile [user]`- Display the CSS profile of a user, or use cssprofile to display your own cssprofile.
 - `deletecssprofile [user]`- Delete the entire cssprofile of a specific user (only accessable by the owners of the room).
 - `showimg [link], [width], [height]`- Broadcasts an image with a set width and height.
-- `showavatar [#]`- Broadcasts a default trainer avatar of choice.
+- `showavatar [avatarNum]`- Broadcasts a default trainer avatar of choice.
 - `imgsearch [pokemon]`- Searches for sprites of a chosen pokemon, if any are available. (Does not cover all artwork)
 
 iLa Commands
@@ -59,6 +59,8 @@ The commands are used for hosting giveaways in the Wifi Gift Shop, and is only r
 
 -`giveaway add, [user]` - Adds an user to a giveaway.
 -`giveaway remove, [user]` - Removes an user from the giveaway.
+-`giveaway join` - Joins the giveaway
+-`giveaway leave` - Leaves the giveaway
 -`giveaway prize, [prize]` - Sets the prize of the giveaway.
 -`giveaway draw` - Begins the giveaways. (Takes two minutes until a lucky winner is decided.
 
