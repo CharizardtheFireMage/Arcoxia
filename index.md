@@ -1,72 +1,41 @@
-This is the current command list for Arcoxia in the Azure Server. 
+This is the current command list for Arcoxia in the Azure Server.
 
-1v1 Commands
-------------
-These are some custom commands used to create a tournament in the 1v1 room of the Azure Server. 
+Important Stuff You Should Know:
+1) Arcoxia primarily uses the command character **`.`**.
+2) `[]` text enclosed in brackets means that it is a necessary argument/option, and must be specified **always**.
+3) `()` text enclosed in parenthesis means that it is optional, and the command would work regardless it was specified or not, albeit in a different manner, to be more specific, it'd resort to the _default_ options.
+4) All of the commands mentioned below are to be **preceded by `.`**, for Arcoxia to recognize them as commands.
 
-- `1v1 [none|doubles]` - The bot creates a 1v1 tournament (Single or Double Elimination). 
-- `monoletter` - The bot creates an 1v1 tournament and declares what pokemon of a specific letter to use. 
-- `monocolor` - The bot creates an 1v1 tournament and declares what pokemon of a specific color to use.
-- `monopoke [name]` - The bot creates an 1v1 tournament and declares what pokemon should you use.
-- `monothreat` - The bot creates an 1v1 tournament and declares what pokemon of a specific type to use. 
-- `monotier` - The bot creates an 1v1 tournament and declares what pokemon of a specific tier you have to use. 
-- `declareletter [letter]` - The bot declares what pokemon of a specific letter that you have to use in the Monoletter 1v1 Tournament. 
-- `declarecolor [color]` - The bot declares what pokemon of a specific color that you have to use in the Monocolor 1v1 Tournament. 
-- `declarepoke [pokemon]` - The bot declares what pokemon that you have to use in the Monopoke 1v1 Tournament. 
-- `declarethreat [type]` - The bot declares what pokemon of a specific type that you have to use in the Monothreat 1v1 Tournament.
-- `ovoei [ce1v1|mono1v1rr]` - The bot PMs you with the rules or any information about an 1v1 event. 
 
-For the monoletter, monocolor, and monothreat commands, PLEASE do not spam this command, because that the bot will switch letter, color, and typing every time the command is used. 
+Tour Commands
+=============
 
-1v1 Staff Commands
-------------------
-- `ce1v1` - The bot creates a 1v1 tournament, addhtmlboxes the rules and a button at which users can press to PM the host for a pokemon. For every 5 minutes for 20 minutes, the bot will auto-addhtmlbox the button to PM the host, so don't start the tournament until after the bot has auto-addhtmlbox'ed four times. Whitelisted users have access to this command. 
-- `mono1v1rr` - The bot creates a [Gen 7] Monotype 1v1 Tournament and declares the rules of the event. & and up have access to this command. 
+These are the commands with tour related functionality. 
 
-Monotype Commands
------------------
-This is a command that is used for the Monotype room in the Azure Server.
+- `1v1 (doubles)` - Arcoxia creates a 1v1 tour and uses the initial commands (`modjoin off`, `scout off`). (Requires **+** or above)
+- `runtour [minutes]` - Arcoxia will automatically start (and use basic tour commands), after the specified number of minutes, can be floating point values and integers. (Requires **+** or above). 
 
-- `monotour [uu|lc|duotype|1v1|aaa|stabmons|bw|ubers|monothreat|catchandevolve]` - The bot creates a tournament and declares what type of tournament is being played right now, as to notify users what teams to use.
+Image Commands
+==============
 
-Art Profile Commands
---------------------
-These commands are applied to setting up an Art Profile or a CSS Profile in the Design Shop. For any help with these commands, please talk to a Room Moderator and up in the Design Shop. 
+Commands for displaying images.
 
-- `addsprite [basic|recolor|animated|custom], [link]`- Adds the desired avatar, that you have made, into your artprofile.
-- `removesprite [basic|recolor|animated|custom], [link]`- Removes the desired avatar, that you have made, from your artprofile.
-- `addcss [link], [width], [height]`- Adds a CSS Design that you have made into your cssprofile.
-- `artprofile [user]`- Display the art profile of a user, or use artprofile to display your own artprofile.
-- `deleteprofile [user]`- Delete the entire artprofile of a specific user (only accessable by the owners of the room).
-- `cssprofile [user]`- Display the CSS profile of a user, or use cssprofile to display your own cssprofile.
-- `deletecssprofile [user]`- Delete the entire cssprofile of a specific user (only accessable by the owners of the room).
-- `showimg [link], [width], [height]`- Broadcasts an image with a set width and height.
-- `showavatar [avatarNum]`- Broadcasts a default trainer avatar of choice.
-- `imgsearch [pokemon]`- Searches for sprites of a chosen pokemon, if any are available. (Does not cover all artwork)
+- `showimg [link]`- Broadcasts the image, if user is (**@** or above), else queues it for approval.
+- `showimg [approve/reject]` - Approves or Rejects an image queued.
+- `showavatar [avatar number]`- Broadcasts the trainer sprite for the avatar number specified. (Requires **%** or above)
+- `imgsearch [pokemon]`- Broadcasts sprites from RGB-BW. (Requires **%** or above)
 
-iLa Commands
--------------------
-The commands are used to evaluate and control the leaderboard in iLa. You need t be a Room Moderator and above to have access to the administrative commands.
+Anime Commands
+==============
 
-- `givepoints [user], [points]`- Gives points to an iLa member. @ and up have access to this command.
-- `takepoints [user], [points]`- Takes points from an iLa member. @ and up have access to this command.
-- `resetpoints [user]`- Resets points from an iLa member. # have access to this command.
-- `ilalb` - Displays the iLa Leaderboard in the chat. + and up have access to this command.
-- `points [user|none]`- Displays how many points that an iLa member owns. + and up have access to this command.
+Commands for fetching anime details and airing time.
 
-Wi-Fi Gift Shop Commands
-------------------------
-The commands are used for hosting giveaways in the Wifi Gift Shop, and is only restricted to this room. Moderator and up only have access to these commands. 
-
--`giveaway add, [user]` - Adds an user to a giveaway.
--`giveaway remove, [user]` - Removes an user from the giveaway.
--`giveaway join` - Joins the giveaway
--`giveaway leave` - Leaves the giveaway
--`giveaway prize, [prize]` - Sets the prize of the giveaway.
--`giveaway draw` - Begins the giveaways. (Takes two minutes until a lucky winner is decided.
+- `a.anime [title]` - Broadcasts the information regarding the title, fetched from AniList. (Requires **+** or above)
+- `a.manga [title]` - Broadcasts the information regarding the title, fetched from AniList. (Requires **+** or above)
+- `a.airing [title]` - Sends the time left till airing of the next episode of the title. (Requires **%** or above)
 
 Basic Commands
-------------
+--------------
 
 Basic features and some information about the bot.
 
@@ -79,21 +48,6 @@ Basic features and some information about the bot.
  - `seen [user]` - Latest data from an user
  - `alts [user]` - List of known alts of an user (Alts detedted from namechanges)
  - `say [text]` - Force to say something
-
-Dynamic Commands
-------------
-
-Dynamic commands are commands saved in a JSON, used for commands that are continuously changing, like forum links or usage stats. Commands for using, creating, modifying and deleting dynamic commands are the following:
-
- - `dyn [cmd]` - To call a dynamic command
- - `wall [cmd]` - To call a dynamic command (with announce / wall)
- - `temp [text]` - Set temp var, to create a command
- - `setcmd [cmd]` - Create or modify a command, with `temp` data previosly set
- - `setalias [alias], [cmd]` - Set an alias of an existent dynamic command
- - `delcmd [cmd]` - Delete a command
- - `dyncmdlist` - Get the list of dynamic commands
-
-**NOTE:** You can use a dynamic just with `.command` (command character + command name) if there is not another static command with the same name. So you can use this to create only-text commands with ease.
 
 Chat Plugins
 ------------
@@ -137,48 +91,8 @@ Commands for managing the local database of jokes and quotes:
  - `deljoke [id]` - Delete an existing joke
  - `listjokes` - Upload jokes to hastebin
 
-Administrative Commands
-------------
-
-Commands for controlling the bot and command permissions for chat rooms.
-
- - `custom [text]` - Send something to current room
- - `custom [room] [text]` - Send something to a chat room. Brackets are obligatory if you specify the room. Example of usage: `custom [lobby] Some text here`
- - `pm [user], [text]` - Send a private message
- - `join [room1], [room2], [...]` - Join chat rooms
- - `leave [room1], [room2], [...]` - Leave chat rooms
- - `joinrooms [official/public/all]` - Join all rooms
- - `lang [lang]` - Set the language of the room
- - `settings [cmd], [rank]` - Configure command permissions
- - `battlesettings [permission], [rank]` - Change permissions for battle rooms
-
-Developing Commands
-------------
-
-Commands for developing (only for excepted users)
-
- - `eval` or `js` - Execute arbitrary JavaScript
- - `send` - Send anything to the server
- - `reload [commands/config/features/laguages]` - Hotpatch source files
- - `updategit` - Fast forward from git repo
- - `clearcache` - Clear the cache, for example for reloading the usage data
-
-CommandParser developing commands
-
- - `ignore [user]` - Bot will ignore an user
- - `unignore [user]` - Stop ignoring an user
- - `sleep [room]` - Change the room status to `Sleeping`, to disable bot commands in a room
- - `wake [room]` - Change the room status to `Ready`, to re-enable bot  commands in a room
- - `status` or `roomstatus [room]` - Show the current status. Abbreviations: [c - chat, b - battle][r - ready, s - sleeping][Bot group][p - public, h - hidden]. Example: crup = chat, ready, user, private
-
-Commands for terminating the process (for restarting the bot)
-
- - `lockdown` - Set lockdown mode, use `endlockdown` to revert it
- - `kill` - End the process after using lockdown
- - `forcekill` - Kill the process
-
 Moderation
-------------
+----------
 
 **Mod Settings:** Use `mod (room - optional), [moderation], [on/off]` to enable or disable moderations.
 
@@ -214,7 +128,7 @@ Moderation
 **Note:** Excepted users can use moderation commands in format `command [roomid]Arguments` to set moderation through PM or other room. Example: `ab [lobby]spammer1, spammer2`
 
 Battle
-------------
+------
 
 Commands for battle feature
 
@@ -279,7 +193,7 @@ Commands for leaderboards system
  - `leaderboards reset, [room]` - Reset leaderboards data
 
 Games
-------------
+-----
 
 General commands for managing games:
 
