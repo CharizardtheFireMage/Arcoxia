@@ -1,9 +1,9 @@
-This is the current command list for Arcoxia in the Azure Server.
+This is the current command list for Arcoxia. The bolded ones with the _larger than normal size_ are commands unique to Arcoxia.
 
 Important Stuff You Should Know:
-1) Arcoxia primarily uses the command character **`.`**.
-2) `[]` text enclosed in brackets means that it is a necessary argument/option, and must be specified **always**.
-3) `()` text enclosed in parenthesis means that it is optional, and the command would work regardless it was specified or not, albeit in a different manner, to be more specific, it'd resort to the _default_ options.
+1) Arcoxia primarily uses the command character `.`.
+2) `[ ]` text enclosed in brackets means that it is a necessary argument/option, and must be specified **always**.
+3) `( )` text enclosed in parenthesis means that it is optional, and the command would work regardless it was specified or not, albeit in a different manner, to be more specific, it'd resort to the _default_ options.
 4) All of the commands mentioned below are to be **preceded by `.`**, for Arcoxia to recognize them as commands.
 
 
@@ -12,8 +12,8 @@ Tour Commands
 
 These are the commands with tour related functionality. 
 
-- `1v1 (doubles)` - Arcoxia creates a 1v1 tour and uses the initial commands (`modjoin off`, `scout off`). (Requires **+** or above)
-- `runtour [minutes]` - Arcoxia will automatically start (and use basic tour commands), after the specified number of minutes, can be floating point values and integers. (Requires **+** or above). 
+- `1v1 (doubles)` - A 1v1 tour is created. (Requires **+** or above)
+- `runtour [minutes]` - The tour is automatically started after _n_ minutes. (Requires **+** or above). 
 
 Image Commands
 ==============
