@@ -1,10 +1,10 @@
 This is the current command list for Arcoxia. The bolded ones with the _larger than normal size_ are commands unique to Arcoxia.
 
 Important Stuff You Should Know:
-1) Arcoxia primarily uses the command character `.`.
-2) `[ ]` text enclosed in brackets means that it is a necessary argument/option, and must be specified **always**.
-3) `( )` text enclosed in parenthesis means that it is optional, and the command would work regardless it was specified or not, albeit in a different manner, to be more specific, it'd resort to the _default_ options.
-4) All of the commands mentioned below are to be **preceded by `.`**, for Arcoxia to recognize them as commands.
+1. Arcoxia primarily uses the command character `.`.
+2. `[ ]` text enclosed in brackets means that it is a necessary argument/option, and must be specified **always**.
+3. `( )` text enclosed in parenthesis means that it is optional, and the command would work regardless it was specified or not, albeit in a different manner, to be more specific, it'd resort to the _default_ options.
+4. All of the commands mentioned below are to be **preceded by `.`**, for Arcoxia to recognize them as commands.
 
 
 Tour Commands
@@ -35,7 +35,7 @@ Commands for fetching anime details and airing time.
 - `a.airing [title]` - Sends the time left till airing of the next episode of the title. (Requires **%** or above)
 
 Basic Commands
---------------
+==============
 
 Basic features and some information about the bot.
 
@@ -50,7 +50,7 @@ Basic features and some information about the bot.
  - `say [text]` - Force to say something
 
 Chat Plugins
-------------
+============
 
 Misc commands for multiple features:
 
@@ -92,7 +92,7 @@ Commands for managing the local database of jokes and quotes:
  - `listjokes` - Upload jokes to hastebin
 
 Moderation
-----------
+==========
 
 **Mod Settings:** Use `mod (room - optional), [moderation], [on/off]` to enable or disable moderations.
 
@@ -128,7 +128,7 @@ Moderation
 **Note:** Excepted users can use moderation commands in format `command [roomid]Arguments` to set moderation through PM or other room. Example: `ab [lobby]spammer1, spammer2`
 
 Battle
-------
+======
 
 Commands for battle feature
 
@@ -163,7 +163,7 @@ Commands for battle feature
  - `teamslist` - Upload teams list to Hastebin to view it.
 
 Tournaments
-------------
+===========
 
 Commands for Tournaments feature
 
@@ -254,14 +254,14 @@ General commands for managing games:
  - `end` - To force end the game
 
 Youtube
-------------
+=======
 
 Commands for Youtube link recognition feature
 
  - `youtube [on/off]` - Enable / Disable YouTube link recognition
 
 Auto-Invite
-------------
+===========
 
 Commands for auto-invite feature
 
@@ -269,7 +269,7 @@ Commands for auto-invite feature
   - `getroomauth [room]` - Upload roomauth to hastebin (dev command)
 
 Group Chats
-------------
+===========
 
 Automated Promotion
 
